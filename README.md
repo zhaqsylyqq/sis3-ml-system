@@ -2,7 +2,7 @@
 
 **Student:** Abdimutalipov Zhaxylyk, 23B031056
 
-This is continuation of Practical Task 6. There we trained a model, served it with FastAPI and put it into Docker.
+This is continuation of Practical Task 6 (repo: https://github.com/zhaqsylyqq/pw6-ml-fastapi-docker). There we trained a model, served it with FastAPI and put it into Docker.
 Here we extend it to a more complete ML system:
 
 - **MLflow** — experiment tracking (params, metrics, model artifacts) + Model Registry (name + version)
