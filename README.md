@@ -184,6 +184,10 @@ Example response of `/predict`:
 
 ![predict](screenshots/07_api_predict.png)
 
-**Streamlit frontend**
+**Streamlit frontend** (running in docker compose, talks to API by `http://api:8000`)
 
 ![streamlit](screenshots/08_streamlit.png)
+
+**docker compose** — API and frontend containers are running together
+
+![docker compose](screenshots/09_docker_compose.png)
