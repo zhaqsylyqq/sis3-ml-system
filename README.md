@@ -157,3 +157,33 @@ Example response of `/predict`:
 - MLflow gives us opportunity to compare all runs in one place and not lose which params gave which metrics
 - Model Registry keeps versions, so we always know which model version is in API (it is shown in Streamlit sidebar and in `/model-info`)
 - **Best model: logistic regression, CV F1 = 0.9927, registered as wine-classifier v1**
+
+## Screenshots
+
+**MLflow — runs of experiment `wine-classification`**
+
+![runs](screenshots/01_mlflow_runs.png)
+
+**MLflow — comparing all 5 runs (params + metrics)**
+
+![compare](screenshots/02_mlflow_compare_runs.png)
+
+**MLflow — best run (logreg): metrics, params, registered model**
+
+![run](screenshots/03_mlflow_run_logreg.png)
+
+**MLflow Model Registry — `wine-classifier` with alias `@champion`**
+
+![models](screenshots/04_mlflow_models.png)
+
+![version](screenshots/05_mlflow_model_version.png)
+
+**FastAPI — `/model-info` and `/predict`**
+
+![model-info](screenshots/06_api_model_info.png)
+
+![predict](screenshots/07_api_predict.png)
+
+**Streamlit frontend**
+
+![streamlit](screenshots/08_streamlit.png)
