@@ -2,7 +2,7 @@
   "model_name": "wine-classifier",
   "model_version": 1,
   "algorithm": "logreg",
-  "run_id": "ca2c521635104eb9949332e5d3d9413d",
+  "run_id": "b4a250b1e9e2434fab6e0c6a467d9c4a",
   "metrics": {
     "cv_f1_macro": 0.9927,
     "test_accuracy": 0.9722,
